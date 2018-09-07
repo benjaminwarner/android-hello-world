@@ -9,6 +9,16 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/changeTextColorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="223dp"
+        android:text="Change Text Color"
+        android:textSize="18sp" />
+
+    <Button
         android:id="@+id/changeBackgroundColor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -24,18 +34,18 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="227dp"
+        android:layout_marginTop="150dp"
         android:text="Hello from Benjamin!"
         android:textColor="@android:color/black"
         android:textSize="24sp" />
 
     <Button
-        android:id="@+id/changeTextColorButton"
+        android:id="@+id/changeTextString"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="145dp"
-        android:text="Change Text Color"
+        android:text="Change Text String"
         android:textSize="18sp" />
 </RelativeLayout>

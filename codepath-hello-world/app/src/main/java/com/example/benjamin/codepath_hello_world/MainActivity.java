@@ -28,5 +28,13 @@ public class MainActivity extends AppCompatActivity {
                 rootView.setBackgroundColor(getResources().getColor(R.color.cyan));
             }
         });
+
+        findViewById(R.id.changeTextString).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TextView helloTextView = findViewById(R.id.helloTextView);
+                helloTextView.setText("Android is awesome!");
+            }
+        });
     }
 }
